@@ -12,13 +12,14 @@ p{
 .s1{
     color: red;
 }
-section{
+.marg{
     display: flex;
   margin-bottom: 1%;
 }
 .one{
 width: 100%;
 padding-left: 8%;
+padding-right: 8%;
 }
 h3{
 color: yellowgreen;
@@ -45,4 +46,31 @@ color: yellowgreen;
 .section2{
     background-color: rgb(22, 42, 48);
 }
-
+.section3{
+    background-color: rgb(139, 32, 178);
+    background-position: 100%;
+    margin-top:-2%;
+    margin-bottom: 10%;
+}
+.third-con{
+    display: flex;
+}
+.three{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border-left: solid 10px;
+    
+    box-shadow: 10px 10px 60px brown;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-radius: 10px
+    
+}
+.three-extra{
+    border-left: solid 10px blue;
+}
+footer{
+    text-align: center;
+}
